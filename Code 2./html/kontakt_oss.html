@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>smOOth | Kontakt Oss</title>
+    <link rel="icon" href="css/bilder/bærsmoothie.jpeg">
+
+    <style>
+
+        #gradient {
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        background: rgb(239,135,95);
+        background-image: linear-gradient(180deg, rgba(239,135,95,1) 0%, rgba(186,244,144,1) 100%);
+        z-index: 0;
+        }
+
+        #kontakt_oss{
+        border: 2px dashed black;
+        padding: 1%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="gradient">
+        <nav class="navbar_class">
+            <a id="hjem" class="nav_bar_hover" href="index.html">Hjem</a> 
+            <a id="meny" class="nav_bar_hover" href="meny.html">Meny</a> 
+            <a id="om_oss" class="nav_bar_hover" href="om_oss.html">Om Oss</a> 
+            <a id="kontakt_oss" class="nav_bar_hover" href="kontakt_oss.html">Kontakt Oss</a>
+            <a id="handlekurv" href="handlekurv.html"><img id="handlekurv_bilde" src="../bilder/shopping-cart-products-vectorportal.png" alt="handlekurv"></a>
+        </nav>
+        
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-left">
+    
+                    <form>
+                        <label for="name">Navn*</label>
+                        <input type="text" id="name" name="name">
+    
+                        <label for="email">Epost*</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="tlf">Telefonnummer</label>
+                        <input type="tel" name="tlf" id="tlf">
+    
+                        <label for="message">Melding*</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    
+                        <input type="submit" class="send-message-cta" value="Send melding">
+                    </form>
+                </div>
+                <div class="kontakt_oss_andre">
+                    <h3>Eller ta kontakt på:</h2>
+                    <h3>Tlf: XXX XX XXX</h3>
+                    <h3>E-post: XXX@XXX.XXX</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

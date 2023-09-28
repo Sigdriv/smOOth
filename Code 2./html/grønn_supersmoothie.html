@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>smOOth | Hjem</title>
+    <link rel="icon" href="../bilder/istockphoto-1336483741-1024x1024-transformed.jpeg">
+
+    <style>
+
+        #gradient {
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        background: rgb(239,135,95);
+        background-image: linear-gradient(180deg, rgba(239,135,95,1) 0%, rgba(186,244,144,1) 100%);
+        z-index: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="gradient">
+        <nav class="navbar_class">
+            <a id="hjem" class="nav_bar_hover" href="index.html">Hjem</a> 
+            <a id="meny" class="nav_bar_hover" href="meny.html">Meny</a> 
+            <a id="om_oss" class="nav_bar_hover" href="om_oss.html">Om Oss</a> 
+            <a id="kontakt_oss" class="nav_bar_hover" href="kontakt_oss.html">Kontakt Oss</a>
+            <a id="handlekurv" href="handlekurv.html"><img id="handlekurv_bilde" src="../bilder/shopping-cart-products-vectorportal.png" alt="handlekurv"></a>
+        </nav>
+        <div class="hele_greia">
+            <div class="bilde_og_text">
+                <h1>Grønn <br> Supersmoothie</h1>
+                <img src="../bilder/istockphoto-600055108-1024x1024-transformed.jpeg" alt="Grønn Supersmoothie">
+            </div>
+            <div class="om_smoothie">
+                <h1>Om Smoothien</h1>
+                <div class="info">
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Curabitur non euismod quam.
+                        Interdum et malesuada fames ac
+                        ante ipsum primis in faucibus. 
+                    </p>
+                </div>
+            </div>
+            <div class="priser">
+                <h1>Priser:</h1>
+                <h2>M: XXX,-</h2>
+                <h2>L: XXX,-</h2>
+            </div>
+            <div class="bestill">
+                <a href="#">Bestill</a>
+            </div>
+            <div class="næringsinnhold">
+                <h1>Næringsinnhold</h1>
+                <div class="næringsinfo">
+                    <div class="nærinsinnhold_tekst">
+                        <p id="nedover"> Energi: 277,16 Kj (66,75 kcal) </p>
+                        <p>Fett: 4,24 g</p>
+                        <p id="innover">Hvorav mettede fettsyrer: 0,73 g</p>
+                        <p>Karbohydrater: 5,4 g</p>
+                        <p id="innover">Hvorav sukkerarter: 5,36 g</p>
+                        <p>Kostfiber: 1,78 g</p>
+                        <p>Protein: 0,85 g</p>
+                        <p>Salt: 0,01 g</p>
+                    </div>
+                    <div class="nærinsinnhold_tekst_">
+                        <p> Vitamin E: 1,12 alfa-TE (9%*)</p>
+                        <p> Vitamin K: 23,64 µg (31%*)</p>
+                        <p> Vitamin C 26,4 mg (32%*)</p>
+                        <p> Folat: 41,75 µg (20%*)</p>
+                        <p> Kalium (K) 265,49 mg (13%*)</p>
+                        <p> Kobber (Cu) 0,1 mg (9%*)</p>
+                    </div>
+
+
+                    <div class="box">
+                        <a class="button" href="#popup1">Les om næringsinfo her</a>
+                    </div>
+                    
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Næringsinfo</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <div class="energi">
+                                    <h3>Energi</h3>
+                                    <p> Akkurat som en bil trenger drivstoff for å kjøre, trenger kroppen vår energi for å bevege seg,
+                                        holde kroppen varm, vokse og utvikle seg fra barn til voksne,
+                                        og holde alle kroppsfunksjonene i gang.</p>
+                                </div>
+                                <div class="fett">
+                                    <h3>Fett</h3>
+                                    <p> Fett bidrar med energi og er det viktigste energilageret i kroppen vår.
+                                        Fettvevet i huden fungerer som isolasjon,
+                                        mens fettet rundt de indre organene beskytter mot støt.</p>
+                                </div>
+                                <div class="karbohydrater">
+                                    <h3>Karbohydrater</h3>
+                                    <p> Hovedfunksjonen til karbohydrater er energi</p>
+                                </div>
+                                <div class="fiber">
+                                    <h3>Fiber</h3>
+                                    <p> Mye fiber i kostholdet vil hjelpe og lette på fordøyelsen</p>
+                                </div>
+                                <div class="protein">
+                                    <h3>Protein</h3>
+                                    <p> Proteiner spiller en avgjørende rolle i nesten alle biologiske prosesser i kroppen.
+                                        Proteiner er blant annet nødvendig for å bygge og vedlikeholde celler,
+                                        vev og produksjon av hormoner og enzymer.
+                                        Protein er nødvendig for vekst og reparasjon, og det fungerer som en energikilde.</p>
+                                </div>
+                                <div class="salt">
+                                    <h3>Salt</h3>
+                                    <p> Salt er viktig for kroppen, fordi det bidrar til å regulere væskebalansen og stabiliserer nervesystemet.</p>
+                                </div>
+                                <div class="vitamin_e">
+                                    <h3>Vitamin E</h3>
+                                    <p> Salt er viktig for kroppen, fordi det bidrar til å regulere væskebalansen og stabiliserer nervesystemet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+</body>

@@ -1,0 +1,1038 @@
+@import url("https://use.typekit.net/boj7yec.css");
+
+* {
+    font-family: Impact, 'Times New Roman', Times, serif;
+    margin: 0%;
+    border: 0;
+    
+}
+
+
+.navbar_class a {
+    border: 2px solid transparent;
+}
+
+nav {
+    background-color: #EF875F;
+    width: 100%;
+    border-bottom: solid black;
+    padding: 2%;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+
+}
+
+.nav_bar_hover:hover {
+    border: 2px solid black;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+    margin: 2%;
+    padding-top: 0.5%;
+}
+
+#hjem {
+    font-size: 3.5vw;
+    padding: 1%;
+}
+
+#meny {
+    padding: 1%;
+    font-size: 3.5vw;
+}
+
+#om_oss {
+    padding: 1%;
+    font-size: 3.5vw;
+}
+
+#kontakt_oss {
+    padding: 1%;
+    font-size: 3.5vw;
+}
+
+#handlekurv_bilde {
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+#handlekurv_bilde:hover {
+    border: 2px solid black;
+
+
+}
+
+    
+
+
+/* hjem siden */
+
+    .cover-banner {
+        position: absolute;
+        background-image: url(../bilder/5324ba73d8397fb6f1e26469b9de9d51.jpg);
+        background-size: cover;
+        background-position: center center;
+        top: 5vh;
+        height: 100vh;
+        width: 100%;
+        z-index: 1;
+        
+    }
+
+    #velkommen-til-smoothiebaren {
+        margin-top: 30vh;
+        font-size: 5vh;
+        color: #FF0000;
+        text-align: center;
+        background-color: transparent;
+        text-shadow: 24px 14px rgba(0, 0, 0, 6%);
+        z-index: 2;
+    }
+
+    #smooth-navn {
+        
+        font-size: 10vh;
+        background-color: transparent;
+        text-align: center;
+        top: 100%;
+        color: #00FF76;
+        text-shadow: 24px 14px rgba(0, 0, 0, 6%);
+        z-index: 2;
+    }
+
+    .dagens {
+        height: 20%;
+        
+    }
+
+    .dagens h3 {
+        margin-top: 130vh;
+        margin-left: 15%;
+        font-size: 300%;
+        color: #707070;
+    
+    }
+
+    .se_flere {
+        font-size: 300%;
+        margin-top: -4%;
+        margin-left: 45%;
+        text-align: center;
+    }
+
+    .se_flere a:hover {
+        border: none;
+    }
+
+    .bilde_div {
+        height: 100%;
+        width: 90%;
+        margin-left: 10%;
+        overflow: hidden;
+    }
+
+    .bilde_div img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: 85%;
+        margin-top: 5%;
+        border-radius: 15%;
+        border: 1px solid black;
+    }
+
+    #bilde_1 {
+        margin-left: 8%;
+    }
+
+    #bilde_2 {
+        margin-left: 27%;
+    }
+
+    #grønnsmoothie {
+        text-align: center;
+        margin-right: 62%;
+        color: #707070;
+    }
+
+    #jordbær_smoothie {
+        text-align: center;
+        margin-top: -5.5%;
+        margin-left: 38%;
+        color: #707070;
+    }
+
+    .les_mer {
+        border-radius: 25px;
+        background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+        width: 10%;
+        text-align: center;
+        margin-left: 14%;
+        margin-top: 1%;
+    }
+
+    .les_mer a {
+        font-size: 200%;
+        text-align: center;
+        font-family: grafolita-script;
+        color: white;
+        margin: 0%;
+    }
+
+    .les_mer2 {
+        border-radius: 25px;
+        background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+        width: 10%;
+        text-align: center;
+        margin-left: 64%;
+        margin-top: -3.3%;
+    }
+
+    .les_mer2 a {
+        font-size: 200%;
+        text-align: center;
+        font-family: grafolita-script;
+        color: white;
+        margin: 0%;
+    }
+
+/* meny */
+
+
+.meny {
+    height: 30%;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.bilde_div_meny {
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.bilde_meny img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 85% 0;
+    margin-top: 5%;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+#bilde_1_meny {
+    margin-left: 5%;
+}
+
+#bilde_2_meny {
+    margin-left: 7.5%;
+}
+
+#bilde_3_meny {
+    margin-left: 7.5%;
+    object-position: 55%;
+}
+
+.bilde_tekst {
+    color: #707070;
+    font-style: impact;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#grønnsmoothie_meny {
+    margin-left: -65%;
+}
+
+#jordbær_smoothie_meny {
+    margin-top: -6.5%;
+}
+
+#lilla_smoothie_meny {
+    margin-top: -6.5%;
+    margin-left: 65%;
+}
+
+.les_mer_meny {
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+    width: 10%;
+    text-align: center;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+
+.les_mer_meny a {
+    font-size: 200%;
+    text-align: center;
+    font-family: grafolita-script;
+    color: white;
+    margin: 0%;
+}
+
+.les_mer2_meny {
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+    width: 10%;
+    text-align: center;
+    margin-left: 78%;
+    margin-top: -3.5%;
+}
+
+.les_mer2_meny a {
+    font-size: 200%;
+    text-align: center;
+    font-family: grafolita-script;
+    color: white;
+    margin-left: 0%;
+}
+
+.les_mer3_meny {
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+    width: 10%;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: -3.5%;
+}
+
+.les_mer3_meny a {
+    font-size: 200%;
+    text-align: center;
+    font-family: grafolita-script, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0%;
+}
+
+/* om oss */
+
+.om_oss {
+    z-index: 2;
+    margin-top: 11%;
+    font-size: 200%;
+    text-align: center;
+    color: #707070;
+}
+
+.om_oss img {
+    margin-top: 2%;
+    height: auto;
+    width: 80%;
+    border-radius: 100px;
+}
+
+#om_oss_1 {
+    font-family: grafolita-script, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 2%;
+    margin-top: -4%;
+    padding: 5%;
+}
+
+#bærekraft_text {
+    color: #707070;
+    font-size: 95%;
+    margin: 10%;
+    margin-top: 2%;
+    padding: 3%;
+}
+
+/* kontakt oss */
+
+.contact-section {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    font-family: Bai Jamjuree;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    border: none;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+frame label {
+    font-family: Bai Jamjuree;
+}
+
+.kontakt_oss_andre {
+    text-align: center;
+}
+
+.kontakt_oss_andre h3{
+    margin: 2%;
+    font-family: Bai Jamjuree;
+    font-size: 150%;
+
+}
+
+/* handlekurv */
+
+.handlekurv {
+    margin-top: 10%;
+}
+
+.handlekurv a {
+    font-size: 250%;
+}
+
+.handlekurv a:hover {
+    border: none;
+    color: #707070;
+}
+
+.handlekurv_enheter {
+    margin: 10%;
+    margin-top: 5%;
+    border: 1px solid black;
+    background-color: white;
+    height: 610px;
+    width: 510px;
+    border-radius: 75px;
+}
+
+.handlekurv_enheter h2 {
+    font-family: Bai Jamjuree;
+    margin: 5%;
+    color: #707070;
+}
+
+.grønn_enhet {
+    margin: 5%;
+    margin-top: 10%;
+    margin-left: 9%;
+    border: 1px solid black;
+    background-color: white;
+    height: 110px;
+    width: 410px;
+    border-radius: 50px;
+}
+
+.grønn_enhet_bilde_tekst img{
+    margin-left: 5%;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 85% 0;
+    margin-top: 3%;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+.grønn_enhet_bilde_tekst h3 {
+    font-family: bai Jamjuree regular;
+    color: #707070;
+    font-size: 90%;
+    margin-left: 26%;
+    margin-top: -18%;
+}
+
+.grønn_enhet_bilde_tekst h4 {
+    font-family: bai Jamjuree regular;
+    color: #707070;
+    font-size: 90%;
+    margin-left: 26%;
+    margin-top: 2%;
+}
+
+.grønn_enhet_bilde_tekst h5 {
+    font-family: bai Jamjuree regular;
+    color: #707070;
+    font-size: 90%;
+    margin-left: 65%;
+    margin-top: -17%;
+}
+
+.antall {
+    margin-top: 1%;
+    margin-left: 65%;
+    border: 1px solid black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.antall p {
+    font-family: bai Jamjuree regular;
+    color: #707070;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.grønn_enhet_bilde_tekst h6 {
+    font-family: bai Jamjuree regular;
+    color: #707070;
+    font-size: 90%;
+    margin-left: 60%;
+}
+
+.sammendrag {
+    margin: 10%;
+    margin-top: -50%;
+    margin-left: 60%;
+    border: 1px solid black;
+    background-color: white;
+    height: 455px;
+    width: 355px;
+    border-radius: 75px;
+}
+
+.sammendrag h1{
+    font-family: bai Jamjuree;
+    color: #707070;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.produkter_1 {
+    margin: 10%;
+    margin-top: 8%;
+    margin-left: 0%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+    height: 100px;
+    width: 354px;
+}
+
+.produkter_2 {
+    margin: 2.5%;
+    margin-left: 7.5%;
+    border: 1px solid black;
+    background-color: white;
+    height: 75px;
+    width: 300px;
+    border-radius: 75px;
+}
+
+.produkter_2 h1 {
+    font-family: bai  jamjuree;
+    text-align: left;
+    font-size: 150%;
+    margin-top: 7.5%;
+    margin-left: 2%;
+    color: #707070;
+}
+
+.produkter_2 h2 {
+    color: #707070;
+    font-family: bai  jamjuree;
+    text-align: left;
+    font-size: 150%;
+    margin-top: -9.5%;
+    margin-left: 86%;
+}
+
+.total {
+    margin: 2.5%;
+    margin-left: 20%;
+    margin-top: 10%;
+    border: 1px solid black;
+    background-color: white;
+    height: 75px;
+    width: 200px;
+    border-radius: 75px;
+}
+
+.total h1{
+    color: #707070;
+    font-family: bai jamjuree;
+    font-size: 120%;
+    text-align: left;
+    margin: 5%;
+    margin-top: 12%;
+}
+
+.total h2{
+    color: #707070;
+    font-family: bai jamjuree;
+    font-size: 120%;
+    text-align: right;
+    margin: 5%;
+    margin-top: -16%;
+}
+
+.gå_til_kassen {
+    margin: 2.5%;
+    margin-left: 7.5%;
+    margin-top: 10%;
+    border: 1px solid black;
+    background-color: #4870C4;
+    height: 50px;
+    width: 300px;
+    border-radius: 75px;
+}
+
+.gå_til_kassen h1 {
+    color: white;
+    margin-top: 2%;
+    font-size: 200%;
+}
+
+/* Grønn Supersmoothie side */
+
+.hele_greia {
+    margin: 5%;
+}
+
+.bilde_og_text {
+    height: 100%;
+    width: 50%;
+}
+
+.bilde_og_text h1 {
+    margin: 5%;
+    margin-top: 25%;
+    font-family: grafolita-script;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    margin-left: -35%;
+}
+
+.bilde_og_text img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 80% 0;
+    margin-top: 0%;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+.om_smoothie h1 {
+    font-family: grafolita-script;
+    color: white;
+    margin-top: -51.5%;
+    margin-left: 45%;
+    font-size: 250%;
+}
+.info {
+    margin: 10%;
+    margin-top: 2.5%;
+    margin-left: 40%;
+    border: 1px solid black;
+    background-color: white;
+    height: 255px;
+    width: 355px;
+    border-radius: 75px;
+}
+
+.info p {
+    margin: 5%;
+    color: #679333;
+    font-family: grafolita-script;
+    font-size: 175%;
+}
+
+.priser h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #707070;
+    font-size: 250%;
+    margin-left: 75%;
+    margin-top: -35%;
+}
+
+.priser h2 {
+    margin-top: 2%;
+    font-family: grafolita-script;
+    color: #707070;
+    font-size: 250%;
+    margin-left: 75%;
+}
+
+.bestill {
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, rgb(194, 42, 42) 0%, rgb(109, 23, 184) 100%);
+    width: 15%;
+    text-align: center;
+    margin-left: 75%;
+    margin-top: 5%;
+}
+
+.bestill a {
+    font-size: 300%;
+    text-align: center;
+    font-family: grafolita-script;
+    color: white;
+    margin: 0%;
+}
+
+.bestill a:hover {
+    border: none;
+    margin: 0%;
+    text-align: center;
+}
+
+.næringsinnhold h1 {
+    font-family: grafolita-script;
+    padding-left: 52%;
+    font-size: 350%;
+    padding-top: 2%;
+    color: white;
+}
+
+.næringsinfo {
+    margin: 5%;
+    margin-top: 2%;
+    margin-left: 40%;
+    border: 1px solid black;
+    background-color: white;
+    height: 410px;
+    width: 710px;
+    border-radius: 50px;
+}
+
+.nærinsinnhold_tekst {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.nærinsinnhold_tekst_ {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1%;
+}
+
+.næringsinfo p {
+    color: #679333;
+    font-family: Bai Jamjuree;
+    font-size: 125%;
+    padding-left: 2%;
+}
+
+#nedover {
+    padding-top: 3%;
+}
+
+#innover {
+    padding-left: 7%;
+}
+
+.vitaminer{
+    padding-bottom: 50%;
+    padding-left: 50%;
+    display: inline;
+    float: right;
+}
+
+.vitaminer p {
+    margin-right: 0%;
+}
+
+.les_mer_super {
+    background-image: none;
+    width: 50vw;
+}
+
+.les_mer_super a {
+    font-family: Impact;
+    color: #707070;
+    
+}
+
+/* Pop up window */
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 2vh;
+  padding: 10px;
+  color: #707070;
+  border: 2px solid #06D85F;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+    margin: 8% auto;
+    padding: 2%;
+    background: #fff;
+    border-radius: 5px;
+    width: 75%;
+    position: relative;
+    transition: all .5s ease-in-out;
+    border: #707070 solid 1px;
+}
+
+.popup h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #707070;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.energi {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 100px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.energi h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.energi p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.fett {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 70px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.fett h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.fett p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.karbohydrater {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 50px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.karbohydrater h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.karbohydrater p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.fiber {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 50px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.fiber h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.fiber p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.protein {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 110px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.protein h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.protein p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.salt {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 80px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+
+}
+
+.salt h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.salt p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}
+
+.vitamin_e {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    background-color: white;
+    height: 80px;
+    width: 49%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+    margin-left: 50%;
+
+}
+
+.vitamin_e h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.vitamin_e p {
+    color: #707070;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95%;
+    text-align: center;
+}

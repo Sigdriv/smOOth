@@ -1,0 +1,169 @@
+* {
+    font-family: Impact, 'Times New Roman', Times, serif;
+    margin: 0%;
+    
+}
+
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 500%;
+    background: rgb(239,135,95);
+    background-image: linear-gradient(180deg, rgba(239,135,95,1) 0%, rgba(186,244,144,1) 100%);
+    z-index: 0;
+}
+
+.navbar_class a {
+    border: 2px solid transparent;
+}
+
+nav {
+    background-color: #EF875F;
+    width: 100%;
+    border-bottom: solid black;
+    padding: 4vh;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+
+}
+
+a:hover {
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+
+}
+
+a {
+    font-size: 6vh;
+    text-decoration: none;
+    color: #707070;
+    margin: 6vh;
+    padding: 4px; 
+}
+
+#hjem {
+    padding: 10px;
+}
+
+#meny {
+    padding: 10px;
+}
+
+#om_oss {
+    padding: 10px;
+}
+
+#handlekurv_bilde {
+    height: auto;
+    width: 6vh;
+    position:relative;
+    
+}
+
+/* hjem siden */
+
+.cover-banner {
+    position: absolute;
+    background-image: url(../bilder/5324ba73d8397fb6f1e26469b9de9d51.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 15.5vh;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+#velkommen-til-smoothiebaren {
+    margin-top: 30vh;
+    font-size: 5vh;
+    color: #FF0000;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 24px 14px rgba(0, 0, 0, 6%);
+    z-index: 2;
+}
+
+#smooth-navn {
+    
+    font-size: 10vh;
+    background-color: transparent;
+    text-align: center;
+    top: 100%;
+    color: #00FF76;
+    text-shadow: 24px 14px rgba(0, 0, 0, 6%);
+    z-index: 2;
+}
+
+.dagens {
+    height: 20%;
+    
+}
+
+.dagens h3 {
+    margin-top: 130vh;
+    margin-left: 15%;
+    font-size: 300%;
+    color: #707070;
+   
+}
+
+.dagens a {
+    margin-left: 64%;
+    font-size: 300%;
+    color: #707070;
+}
+
+.dagens a:hover {
+    border: 0px solid transparent;
+}
+
+.bilde_div {
+    height: 100%;
+    width: 120%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.bilde_div img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 85% 0;
+    margin-top: 5vh;
+    border-radius: 15%;
+}
+
+#bilde_1 {
+    margin-left: 5%;
+}
+
+#bilde_2 {
+    margin-left: 20%;
+}
+
+#grønnsmoothie {
+    text-align: center;
+    margin-right: 73%;
+    color: #707070;
+}
+
+#navn_på_smoothie {
+    text-align: center;
+    margin-top: -4.4%;
+    margin-left: 0%;
+    color: #707070;
+}
+
+
+/* om oss siden */
+
+.om_oss {
+    z-index: 2;
+    margin-top: 15%;
+    font-size: 200%;
+    text-align: center;
+    color: #707070;
+}
