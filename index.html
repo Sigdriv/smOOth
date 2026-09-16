@@ -23,6 +23,7 @@
           rgba(186, 244, 144, 1) 100%
         );
         z-index: 0;
+        padding-bottom: 12vh;
       }
 
       #hjem {
@@ -66,44 +67,60 @@
           </div>
         </div>
 
-        <div>
-          <div class="bilde_div">
+        <div class="bilde_div">
+          <div>
+            <img
+              id="bilde_1"
+              src="./bilder/istockphoto-600055108-1024x1024-transformed.jpeg"
+              alt="Grønn smoothie"
+            />
+
+            <img
+              id="bilde_2"
+              src="./bilder/istockphoto-1336483741-1024x1024-transformed.jpeg"
+              alt="Rosa Smoothie"
+            />
+
             <div>
-              <img
-                id="bilde_1"
-                src="./bilder/istockphoto-600055108-1024x1024-transformed.jpeg"
-                alt="Grønn smoothie"
-              />
+              <h1 id="grønnsmoothie">
+                Grønn <br />
+                Supersmoothie
+              </h1>
 
-              <img
-                id="bilde_2"
-                src="./bilder/istockphoto-1336483741-1024x1024-transformed.jpeg"
-                alt="Rosa Smoothie"
-              />
+              <h1 id="jordbær_smoothie">
+                Jordbær <br />
+                smoothie
+              </h1>
+            </div>
 
-              <div>
-                <h1 id="grønnsmoothie">
-                  Grønn <br />
-                  Supersmoothie
-                </h1>
+            <div class="les_mer">
+              <a href="grønn_supersmoothie.html">Les mer</a>
+            </div>
 
-                <h1 id="jordbær_smoothie">
-                  Jordbær <br />
-                  smoothie
-                </h1>
-              </div>
-
-              <div class="les_mer">
-                <a href="grønn_supersmoothie.html">Les mer</a>
-              </div>
-
-              <div class="les_mer2">
-                <a href="#">Les mer</a>
-              </div>
+            <div class="les_mer2">
+              <a href="#">Les mer</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="footer-innhold">
+        <p class="footer-tekst">
+          Dette er et skoleprosjekt. Laget av
+          <a href="https://github.com/Sigdriv" target="_blank">Sigdriv</a>.
+        </p>
+
+        <a
+          href="https://github.com/Sigdriv/smOOth"
+          target="_blank"
+          class="github-ikon"
+          aria-label="Gå til min GitHub profil"
+        >
+          <img src="./GitHub_Invertocat_Black.svg" alt="GitHub Logo" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

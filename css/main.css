@@ -10,6 +10,55 @@
   border: 2px solid transparent;
 }
 
+.footer {
+  background-color: #ef875f;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+
+.footer-innhold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 15px;
+}
+
+.footer-tekst {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.footer-tekst a {
+  color: black;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+.github-ikon {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.github-ikon img {
+  height: 30px;
+  width: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.github-ikon:hover img {
+  transform: scale(1.15);
+}
+
 nav {
   background-color: #ef875f;
   width: 100%;
